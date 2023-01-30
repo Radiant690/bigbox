@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:bigbox/theme/palette.dart';
 
 class CustomTheme {
+  // Static method : darkTheme #Input - BuildContext #Output - ThemeData
   static ThemeData darkTheme(BuildContext context) {
     final theme = Theme.of(context);
     return ThemeData(
